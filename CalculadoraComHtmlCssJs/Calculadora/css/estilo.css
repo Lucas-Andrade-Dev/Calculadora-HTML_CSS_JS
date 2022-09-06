@@ -1,0 +1,195 @@
+body {
+    font-family: 'Comic Sans MS', Comic Sans, cursive;
+    background-color: brown;
+    background-size: auto;
+    background-position: center top;
+    background-repeat: no-repeat;
+}
+
+
+
+.titulo_da_pagina {
+    text-align: center;
+    color: aliceblue;
+    margin: 0 0 5px;
+}
+
+.subtilo {
+    text-align: center;
+    display: inline-block;
+   
+}
+
+.subtitulo-nome {
+    color: aliceblue;
+    margin: 0 0 5px;
+    display: inline-block;
+}
+
+.subtitulo-por {
+    color: black;
+    margin: 0 0 5px;
+    display: inline-block;
+}
+
+.container {
+    text-align: center;
+    
+    
+}
+
+*:focus {
+    outline: 0 !important;
+}
+
+.espacamento {
+    margin:auto;
+    height:40px;
+}
+.calculadora {
+    margin: auto;
+    width: 294px;
+    background-color: slategrey;
+    border-radius: 15px;
+    border: 1px solid #ddd;
+    transform: translate(3%, -9%);
+}
+
+.tela {
+   width:250px;
+   border:1px solid #ddd;
+   border-radius:1px;
+   height:60px;
+   padding-right:15px;
+   padding-top:10px;
+   background-color:#202020;
+   text-align:right;
+   margin-right:10px;
+   margin-left:14px;
+   margin-top:10px;
+   font-size:2.5rem;
+   color:whitesmoke;
+   overflow:auto;
+   transition:all .2s ease-in-out;
+}
+
+.contas div {
+    color: white;
+    display: inline-block;
+    border: 0;
+    border-radius: 15px;
+    width: 40px;
+    text-align: center;
+    padding: 10px;
+    margin: 10px 2px 5px 0;
+    cursor: pointer;
+    background-color: #202020;
+    transition: border-color .2s ease-in-out, background-color .2s, box-shadow .2s;
+}
+
+   
+.contas div:hover {
+        background-color: black;
+ }
+
+.painel-numeros {
+   display:inline-block;
+}
+
+.numeros div {
+    color: white;
+    display: inline-block;
+    border: 0;
+    border-radius: 15px;
+    width: 40px;
+    text-align: center;
+    padding: 10px;
+    margin: 5px 2px 5px 0;
+    cursor: pointer;
+    background-color: #202020;
+    transition: border-color .2s ease-in-out, background-color .2s, box-shadow .2s;
+}
+
+ .numeros div:hover {
+        background-color: black;
+  }
+
+.igual {
+    display: inline-block;
+    border: 0;
+    border-radius: 15px;
+    width: 45px;
+    height: 1px;
+    text-align: center;
+    padding: 99px 10px;
+    margin: 5px 2px 5px 0;
+    vertical-align: top;
+    cursor: pointer;
+    color: #FFF;
+    background-color: #202020;
+    transition: all .2s ease-in-out;
+}
+
+    .igual:hover {
+        background-color:black;
+        animation: linear;
+    }
+
+.normal {
+    font-family: 'Courier New', monospace; 
+    font-size:15px;
+    color: aquamarine;
+}
+
+
+
+@media screen and (max-width: 780px) and (max-height: 680px){
+
+    .calculadora {
+        width:210px;
+    }
+
+    .tela {
+        width: 190px;
+        padding-right: 5px;
+        padding-top: 5px;
+        padding-left:5px;
+        margin-left:4px;
+    }
+
+    .numeros div {
+        width: 20px;
+    }
+
+    .contas div {
+        width: 20px;
+        margin: 5px 5px 5px 0;
+    }
+
+    .igual {
+        padding: 99px 5px;
+    }
+
+    .titulo_da_pagina {
+          font-size:large;
+    }
+    
+    .subtitulo-nome {
+        font-size:small;
+    }
+
+    .subtitulo-por {
+        font-size:10px;
+        
+    }
+
+    .espacamento{
+        height:30px;
+    }
+
+
+}
+
+
+
+
